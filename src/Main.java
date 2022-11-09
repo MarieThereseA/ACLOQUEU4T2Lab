@@ -1,15 +1,17 @@
 public class Main {
-    public static void main(String []args){
+    public static void main(String[] args) {
 
-        int sum = 0;
-        int x = 5;
-        for (int i = 0; i < 10 + x; i += 2) {
-            sum += i;
+        for (int i = 4; i <= 11; i++) {
+            System.out.println(i);
         }
-        System.out.println(sum);
 
+        System.out.println();
 
-
+        for (int i = 0; i <= 11; i++) {
+            if (i >= 4) {
+                System.out.println(i);
+            }
+        }
 
     }
 }
